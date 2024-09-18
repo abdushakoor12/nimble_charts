@@ -1,1 +1,7 @@
 include: package:austerity/analysis_options.yaml
+
+analyzer:
+  errors:
+    cascade_invocations: warning
+    lines_longer_than_80_chars: warning
+    avoid_dynamic_calls: warning
